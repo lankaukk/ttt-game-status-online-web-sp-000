@@ -19,10 +19,10 @@ def won?(board)
   if WIN_COMBINATIONS == nil 
     return false
     
-  elsif board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
+  elsif board[WIN_COMBINATIONS[0][0]] == "X" && WIN_COMBINATIONS[0][1]] == "X" && WIN_COMBINATIONS[0][2]] == "X"
     "X won in the top row"
     return WIN_COMBINATIONS[0] 
-  elsif board[top_row_win[0]] == "O" && board[top_row_win[1]] == "O" && board[top_row_win[2]] == "O"
+  elsif WIN_COMBINATIONS[0][0]] == "O" && WIN_COMBINATIONS[0][1]] == "O" && WIN_COMBINATIONS[0][2]] == "O"
     "O won in the top row"
     return WIN_COMBINATIONS[0] 
     
