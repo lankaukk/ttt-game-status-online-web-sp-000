@@ -38,7 +38,7 @@ def won?(board)
   elsif board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
     "X won in the top row"
     return WIN_COMBINATIONS[0] 
-  elsif board[middle_row_win[0]] == "O" && board[WIN_COMBINATIONS[0][1]] == "O" && board[WIN_COMBINATIONS[0][2]] == "O"
+  elsif board[middle_row_win[0]] == "O" && board[middle_row_win[1]] == "O" && board[middle_row_win[2]] == "O"
     "O won in the top row"
     return WIN_COMBINATIONS[0] 
     
