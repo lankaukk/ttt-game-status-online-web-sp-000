@@ -100,7 +100,8 @@ def draw?(board)
 end
 
 def over?(board)
-  if won?(board)
+  if won?(board) || draw?(board)
+    
 end
 
 def winner(board)
