@@ -117,8 +117,8 @@ def winner(board)
   if won?(board)
     won?(board)
   end
-  if draw?(board) == true
-    return nil
-  end
+  # if draw?(board) == true
+  #   return nil
+  # end
 end
 
