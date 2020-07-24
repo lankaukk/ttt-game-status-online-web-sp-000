@@ -100,17 +100,7 @@ def draw?(board)
 end
 
 def over?(board)
-  if won?(board) == true &&
-    full?(board) == true
-    return true
-  elsif won?(board) == true &&
-    full?(board) == false
-    return true
-  elsif draw?(board) == true
-    return true
-  elsif
-    false
-  end
+  
 end
 
 def winner(board)
