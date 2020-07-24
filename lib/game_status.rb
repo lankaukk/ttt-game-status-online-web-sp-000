@@ -116,6 +116,7 @@ end
 def winner(board)
   if won?(board)
     won?(board)
+    board[won?]
   end
   # if draw?(board) == true
   #   return nil
